@@ -1,0 +1,43 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 260px;
+
+  background-image: url(mrtheaderIN.png);
+  background-position: center;
+  background-size: cover;
+
+
+  /* border-radius: 20px; */
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  /* padding: 0 40px; */
+}
+
+.image {
+  position: absolute;
+  right: 1px; 
+  bottom: -34px;
+  height: 327px; 
+  object-fit: contain;
+  z-index: 2; 
+
+  filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.3));
+}
+
+.scrolll{
+  background-color: aqua;
+  width: 100%;
+  height: 5000px;
+}
+
+
+
+h1, p{
+  padding-left: 100px;
+}
+
+h1{
+  font-size: 30pt;
+}

@@ -1,0 +1,359 @@
+/* body{
+  padding-left: 60px;
+  padding-right: 60px;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVUP */
+
+@font-face {
+  font-family: coolvetica;
+  src: url(Coolvetica\ Rg.otf);
+}
+/* h1, h2, h3{
+  font-family: 'coolvetica';
+} */
+
+/* bro ini males banget coba2 fontttttttttttt */
+
+  @font-face {
+    font-family: cabin;
+    src: url(Cabin-Regular.ttf);    
+  }
+
+  @font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: anallop;
+    src: url(Anallop.ttf);
+  }
+
+a{
+    font-family: 'coolvetica';
+    /* font-size: 10pt; */
+}
+
+.navup{
+    overflow: hidden; /*hide if kebanyakan*/
+
+    position: relative;
+    z-index: 10;
+    background-color: darkblue;
+}
+
+.navup a{
+    float: left;
+    display: block;
+    text-align: center;
+    
+    padding: 14px 16px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.navup a:hover{
+    background-color: darkkhaki;
+    color: black;
+}
+
+/* FOOTER */
+.foot{
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.foot img{
+  width: 100%;
+  height: 200px;
+}
+
+/* DROPDOWN BRUHHHHHHHHHHHHHHHHHHH */
+
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background-color: darkblue;
+    color: white;
+} */
+
+/* this is the exact moment eleine told maddy n me and moza thats shes moving :(( */
+
+/* li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+li a:hover, .dropp:hover .dropbtn{
+    background-color: saddlebrown;
+}
+
+li .dropp{
+    display: inline-block;
+}
+
+.dropisi{
+    display: none;
+    position: absolute;
+    background-color: black;
+
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.dropisi a{
+    color: grey;
+    padding: 12px 16px;
+
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropp:hover{
+    background-color: palegoldenrod;
+}
+
+.dropp:hover .dropisi{
+    display: block;
+} */
+
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; 
+
+    display: flex;
+
+    background-color: darkblue;
+    color: white;
+}
+
+.navigatION > li {
+    list-style: none;
+}
+
+/* li{
+    float: left;
+} 
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+li a:hover, .dropp:hover .dropbtn{
+    background-color: saddlebrown;
+}
+
+li .dropp{
+    display: inline-block;
+}
+
+.dropisi{
+    display: none;
+    position: absolute;
+    background-color: black;
+
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.dropisi a{
+    color: grey;
+    padding: 12px 16px;
+
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropp:hover{
+    background-color: palegoldenrod;
+}
+
+.dropp:hover .dropisi{
+    display: block;
+} */
+
+      /* ADDED: Gives .navup a higher stacking layer than .header (z-index: 1) and .image (z-index: 2)
+      .navup {
+          position: relative; /* ADDED
+          z-index: 10; /* ADDED 
+          background-color: darkmagenta; /* MOVED: from ul to .navup 
+      }
+
+      /* CHANGED: Scoped from "ul" to ".nav-list" and switched from float/overflow to flex layout 
+      .navigatION {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex; /* ADDED: Replaces float: left and overflow: hidden on the list 
+          align-items: center; /* ADDED 
+      }
+
+      /* ADDED: Ensures list bullets don't show on <li> items 
+      .navigatION > li {
+          list-style: none;
+      }
+
+      /* CHANGED: Scoped selector to .nav-list > li > a, .dropbtn 
+      .navigatION > li > a,
+      .dropbtn {
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+      /* CHANGED: Scoped hover selector to .nav-list > li > a:hover 
+      .navigatION > li > a:hover,
+      .dropp:hover .dropbtn {
+          background-color: saddlebrown;
+      }
+
+      /* CHANGED: Removed space in "li .dropp" -> ".dropp" (class is on the <li>, not inside it) */
+      /* ADDED: position: relative anchors .dropisi right under IPS instead of jumping left 
+      .dropp {
+          position: relative; /* ADDED 
+          display: inline-block;
+      }
+
+      .dropisi {
+          display: none;
+          position: absolute;
+          top: 100%; /* ADDED: Places dropdown immediately below the IPS button 
+          left: 0; /* ADDED: Aligns dropdown to the left edge of IPS 
+          background-color: black;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5); /* CHANGED: Semi-transparent shadow 
+          z-index: 20; /* ADDED: Keeps dropdown above surrounding elements 
+      }
+
+      .dropisi a {
+          color: grey;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+      }
+
+      /* ADDED: Hover state for dropdown items so they're readable when hovered 
+      .dropisi a:hover {
+          background-color: #222;
+          color: white;
+      }
+
+      .dropp:hover .dropisi {
+          display: block;
+      } */
+
+       ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+
+    background-color: #003049;
+    color: white;
+
+    position: relative;
+                z-index: 20;
+
+    /* z-index: 200; */
+}
+
+                ul::after {
+                content: "";
+                display: table;
+                clear: both;
+                }
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    font-family: coolvetica;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+li a:hover, .dropp:hover .dropbtn{
+    background-color: #780000;        
+                color: white;
+    font-family: coolvetica;
+}
+
+li.dropp{
+    /* display: inline-block; */
+
+            position: relative;
+            float: left;
+}
+
+.dropisi{
+    display: none;
+    position: absolute;
+    background-color: #669BBC;
+
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+
+                top: 100%;
+                left: 0;
+                z-index: 30;
+    
+}
+
+.dropisi a{
+    color: white;
+    padding: 12px 16px;
+
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropp:hover{
+    background-color: palegoldenrod;
+    color: black;
+}
+
+
+
+.dropp:hover .dropisi{
+    display: block;
+}
+

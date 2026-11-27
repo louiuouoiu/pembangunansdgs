@@ -1,0 +1,290 @@
+body{
+  background-color: #FDF0D5;
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url(Coolvetica\ Rg.otf);
+}
+h1, h2, h3{
+  font-family: 'coolvetica';
+}
+
+/* bro ini males banget coba2 fontttttttttttt */
+
+  @font-face {
+    font-family: cabin;
+    src: url(Cabin-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: anallop;
+    src: url(Anallop.ttf);
+  }
+
+p{
+  text-align: justify;
+  font-size:10pt;
+
+  padding-bottom: 15px;
+
+  font-family: 'cabin';
+}
+
+
+/* .header {
+  position: relative;
+  width: 100%;
+  height: 260px;
+
+  background-image: url(sdgsmain.png);
+  background-position: center;
+  background-size: cover;
+
+  /* border-radius: 20px; */
+  /* padding-bottom: 60px auto; 
+  display: flex;
+  align-items: center;
+  /* padding: 0 40px; 
+
+  z-index: 1000;
+}
+
+.image {
+  position: absolute;
+  right: 0px; 
+  bottom: 0;
+  height: 310px; 
+  object-fit: contain;
+  z-index: 1001; 
+
+  filter: drop-shadow(5px 0px 0 rgba(0, 0, 0, 0.3));
+} */
+
+    .header {
+      position: relative;
+      width: 100%;
+      height: 260px;
+
+      background-image: url(sdgsmain.png);
+      background-position: center;
+      background-size: cover;
+
+
+      /* border-radius: 20px; */
+      /* padding-bottom: 60px auto; */
+      display: flex;
+      align-items: center;
+      /* padding: 0 40px; */
+
+                    z-index: 1;
+    }
+
+    .image {
+      position: absolute;
+
+      top: 8px;
+      right: 0px; 
+      bottom: -34px;
+      height: 300px; 
+      object-fit: contain;
+
+      filter: drop-shadow(5px 0 0 rgba(0, 0, 0, 0.3));
+
+                    z-index: 20;
+    }
+
+h1{
+  font-size: 30pt;
+  
+}
+
+.sideimage img{
+  width: 400px;
+  height: 1000px;
+}
+
+.sideimage{
+  display: flex;
+}
+
+.text{
+  flex: 1;
+}
+
+.content1{
+  display: flex;
+  gap:30px;
+
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+}
+
+.left{
+  text-align: right;
+}
+
+.content2{
+  display:grid;
+  /* grid-template-columns: repeat(5, auto); */
+  grid-template-columns: repeat(5, minmax(0,185px));
+  gap: 20px; 
+  padding-top: 20px; 
+
+  max-width: 100%;
+  /* 185 */
+  /* width: 2000px; */
+
+  margin: 0 auto;
+  justify-content: center;
+  transform-origin: center center;
+
+  /* grid-template-columns: minmax(0, 0.5fr) minmax(0,0.5fr); */
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.content2 img{
+  width: 185px;
+  height: auto;
+  transform-origin: center center;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, margin 0.3s ease;
+  
+}
+
+.content2 img:hover{
+  box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.3);
+  transform: scale(1.15); 
+
+  /* width: 203px; */
+  transform-origin: center center;
+  margin-bottom: 25px;
+
+  position: relative;
+  z-index: 10;
+
+}
+
+.content2 p{
+  overflow-wrap: break-word;
+  text-wrap: balance; 
+  word-wrap: break-word;
+
+  /* text-align: justify; */
+  font-size: 11pt;
+
+  text-align: center;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.sdgs{
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.title{
+  text-align: center;
+  padding-top:20px;
+}
+
+.text p{
+  text-indent: 30px;
+}
+
+/* .picked{
+  background-color: beige;
+  padding: 10px;
+} */
+
+
+.content1REAL{
+  margin: 60px;
+  width: calc(100% - 120px);
+  height: 800px;
+
+  background-color: #669BBC;
+}
+
+table{
+  /* border-collapse: collapse; */
+  border-spacing: 20px;
+}
+
+td{
+  width: 400px;
+  height: 180px;
+  
+  margin: 200px;
+  /* padding: 15px; */
+  padding-bottom:5px;
+
+  /* border: 1px solid #580404; */
+
+  /* justify-content: top; */
+  vertical-align: top;
+  transform-origin: center center;
+}
+
+td:hover{
+  transform-origin: center center;
+  /* display: block; */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, margin 0.3s ease;
+  
+}
+
+/* tr{
+  margin: 30px;
+  padding: 30px;
+
+} */
+
+.imge{
+  background-image: url(foto1.jpg);
+
+  background-size: cover;       /* Scales image to cover the entire cell */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+}
+
+.imga{
+  background-image: url(foto2.jpg);
+
+  background-size: cover;       /* Scales image to cover the entire cell */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+
+}
+
+td p{
+  font-size: 12pt;
+
+  text-align: justify;
+  text-indent: 30px;
+
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0;
+
+ 
+}
+
+td h3{
+  margin-top: 0;
+
+  font-size: 16pt;
+  /* color: #580404; */
+  color: black;
+}
+
+.paragraph{
+  margin: 0;
+  padding-bottom: 5px;
+}

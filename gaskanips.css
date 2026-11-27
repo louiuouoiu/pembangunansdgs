@@ -1,0 +1,816 @@
+body{
+    background-color: #FDF0D5;
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url(Coolvetica\ Rg.otf);
+}
+h1, h2, h3, h4{
+  font-family: 'coolvetica';
+}
+
+/* bro ini males banget coba2 fontttttttttttt */
+
+  @font-face {
+    font-family: cabin;
+    src: url(Cabin-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: anallop;
+    src: url(Anallop.ttf);
+  }
+
+p{
+    font-family: 'cabin';
+
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+.navup{
+    overflow: hidden; /*hide if kebanyakan*/
+    background-color: darkblue;
+}
+
+.navup a{
+    float: left;
+    display: block;
+    text-align: center;
+    
+    padding: 14px 16px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.navup a:hover{
+    background-color: darkkhaki;
+    color: black;
+}
+
+/* body{
+    padding-left: 60px;
+    padding-right: 60px;
+} */
+
+/* .header {
+  position: relative;
+  width: 100%;
+  height: 260px;
+
+  background-image: url(bangun.png);
+  background-position: center;
+  background-size: cover;
+
+  /* border-radius: 20px; */
+  /* padding-bottom: 60px auto; 
+  display: flex;
+  align-items: center;
+  /* padding: 0 40px; 
+
+  z-index: 1000;
+}
+
+.image {
+  position: absolute;
+  right: 0px; 
+  bottom: 0;
+  top: 5px;
+  height: 310px; 
+  object-fit: contain;
+  z-index: 1001; 
+
+  filter: drop-shadow(5px 0px 0 rgba(0, 0, 0, 0.3));
+} */
+
+.header {
+      position: relative;
+      width: 100%;
+      height: 260px;
+
+      background-image: url(bangun.png);
+      background-position: center;
+      background-size: cover;
+
+
+      /* border-radius: 20px; */
+      /* padding-bottom: 60px auto; */
+      display: flex;
+      align-items: center;
+      /* padding: 0 40px; */
+
+                    z-index: 1;
+    }
+
+    .image {
+      position: absolute;
+
+      top: 7px;
+      right: 0px; 
+      bottom: 0;
+      height: 300px; 
+      object-fit: contain;
+
+      filter: drop-shadow(5px 0 0 rgba(0, 0, 0, 0.3));
+
+                    z-index: 20;
+    }
+
+/* .ribetkodeny{
+    /* display: flex !important; 
+    gap: 16px;
+    align-items: flex-start;
+
+    /* padding-top: 0;
+    padding-left: 60px;
+    padding-right: 60px; 
+    padding: 30px;
+
+    border: 10px inset;
+    margin: 60px;
+    margin-top: 0;
+}
+
+.upup{
+    display: flex;
+    gap: 16px;
+}
+
+.video{   
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    gap: 20px;
+
+}
+
+.yap{
+    flex: 1;
+
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.penjelasan{
+    width: 100%;
+    height: 200px;
+
+    margin-top: 30px;
+
+    /* border: 1px solid; 
+}
+
+.penjelasan p{
+    text-indent: 30px;
+    text-align: justify;
+
+    /* padding: 20px; 
+    padding-top: 10px;
+
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.penjelasan h3{
+    margin-bottom: 0;
+    margin-top: 0;
+
+    /* padding: 20px; 
+    padding-bottom: 0;
+}
+
+/* class for video is "video" and text is "yap"  
+
+.pembangunanN{
+    margin: 60px;
+    /* height: 400px; 
+    height: 700px;
+
+    /* border: 1px solid; 
+    margin-top: 0;
+
+    display: flex;
+    gap: 30px;
+}
+
+.pembangunanN p{
+    margin: 30px;
+    margin-top: 20px;
+
+    text-align:justify;
+    text-indent: 30px;
+}
+
+.pembangunanN h2{
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+.ques{
+    margin: 60px;
+    margin-bottom:10px !important;
+    font-size: 28pt;
+}
+
+p{
+    font-size: 12.5pt;
+}
+
+.kiri{
+    display: flex;
+    gap: 30px;
+
+    flex-direction: column; 
+    align-items: flex-end;
+
+    width: calc(50% - 30px);
+}
+
+    .normal{
+        /* margin-left: 30px; */
+        /* height: 350px; 
+        height: 450px;
+        /* width: 600px; 
+        width: 100%;
+
+        border: 1px solid;
+    }
+
+    .kiri img{
+        /* width: calc(100% - 600px); 
+        width: 100%;
+        
+        height: 250px;
+    }
+
+.kanan{
+    display: flex;
+    gap: 30px;
+
+    flex-direction: column; 
+    align-items: flex-end;
+
+    width: calc(50%);
+}
+
+    .berkelanjutan{
+        /* margin-top: 0; 
+        
+        height: 450px;
+        /* width: calc(100% - 600px); 
+        width: 100%;
+
+        border: 1px solid;
+    }
+
+    .kanan img{
+        /* width: 600px; kok yg ini ga align sm .normal 
+        width: 100%;
+        height: 250px;
+
+        /* margin-top: 30px; 
+    }
+
+    
+.eeh{
+    margin-left: 60px;
+}
+
+.ouu{
+    margin: 0;
+}
+
+.yap p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.oo{
+    padding-top:0;
+    margin-bottom: 15px;
+
+    padding-top: 0;
+}
+
+.categories{
+    display: flex;
+    gap: 10px;
+
+    padding-top:0 ;
+}
+
+.kesempatan, .inklusif, .berkualitas{
+    width: 100%;
+    border: 1px solid;
+
+    padding: 5px;
+    padding-top: 0;
+}
+
+.ulti{
+    text-align: center;
+
+    padding-top: 10px;
+    margin: 0;
+}
+
+.up{
+    padding-bottom:2px;
+}
+
+.down{
+    padding-top: 2px;
+}
+
+.categories p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.normalISI1{
+    margin: 20px; /*ini yang DILUAR*
+    width: calc(100% - 40px);
+    height: 180px;
+
+    border: 1px solid;
+    padding: 0;
+}
+
+.normalISI1 p{
+    padding: 10px;
+    margin:0;
+} */
+
+/* HELLOOOOOOWWWWWWWWWWWWWWWWWWWWWW CHANGES HERERERERE */
+
+.yee{
+    /* margin: 0; */
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.partSATU{
+    display: flex;
+    /* padding: 20px; */
+    /* padding: 30px; */
+    
+    margin: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    gap: 30px;
+
+    width: calc(100% - 120px);
+    height: 200px;
+
+    /* border: 1px solid; */
+}
+
+    .partSATU p{
+    margin-top: 5px;
+    padding: 30px;
+
+    padding-top: 0;
+    }
+
+    .udjelasblm, .tujuandeh{
+        width: calc(100% - 40px);
+        height: 200px;
+
+        border: 1px solid;
+    }
+
+.tujuandeh{
+    border: 1px solid #780000;
+        background-color: #780000;
+        color:  rgb(227, 224, 224);
+}
+
+.udjelasblm{
+    border: 1px solid #003049;
+    background-color: #003049;
+    color:  rgb(227, 224, 224);
+}
+
+.partTWO{
+    display: flex;
+    gap: 30px;
+
+    margin: 60px;
+    margin-top: 30px;
+
+    width: calc(100% - 120px);
+    height: 800px;
+
+    padding-bottom:0 !important;
+    margin-bottom: 0 !important; 
+    
+    height: auto;
+    /* border: 1px solid; */
+}
+
+.eu{
+    margin-top: 0 !important;
+    margin-left: 60px;
+    margin-bottom: 20px;
+
+    padding-top: 0 !important;
+}
+
+    .menurun{
+        width: 60%;
+        height: 700px;
+
+        /* border: 1px solid; */
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .checklist123{
+        width: 100%;
+        height: 450px;
+
+        border: 1px solid #780000;
+        background-color: #780000;
+        color:  rgb(227, 224, 224);
+    }
+
+    .theimage{
+        width: 100%;
+        height: 300px;
+
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid ; */
+    }
+
+    .theimage img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .ciriciri{
+        width: 40%;
+        height: 700px;
+
+        border: 1px solid #003049;
+    background-color: #003049;
+    color:  rgb(227, 224, 224);
+    }
+
+.ciriciri h3{
+    margin-left: 0;
+    padding-left: 0;
+
+    text-indent: 0;
+    text-align: left;
+}
+
+h2{
+    padding: 20px;
+    padding-bottom: 0;
+    margin: 0;
+
+}
+
+h3{
+    margin-top: 20px;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.p1{
+    height: auto;
+    padding: 20px;
+    width: calc(100% - 40px);
+
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.prinsip{
+    margin: 60px;
+    margin-top: 0 !important;
+    /* padding-top: 0; */
+    width: calc(100% - 120px);
+
+    margin-bottom: 30px;
+
+    height: 300px;
+    /* border: 1px solid; */
+
+    display: flex;
+    gap: 30px;
+
+}
+
+    .stuffF{
+        width: 70%;
+        height: auto;
+        /* border: 1px solid; */
+
+        padding: 30px;
+
+    border: 1px solid #003049;
+    background-color: #003049;
+    color:  rgb(227, 224, 224);
+    }
+
+    .prinsip img{
+        width: 30%;
+    }
+
+.pilar{
+    margin: 60px;
+    margin-top: 0;
+    padding-top: 0;
+
+    width: calc(100% - 120px);
+
+    height: 500px;
+    /* border: 1px solid; */
+
+    display: flex;
+    gap: 30px;
+}
+
+.explain{
+    display: flex;
+    gap: 20px;
+
+    width: 33%;
+    height: 500px;
+
+    /* border: 1px solid yellow; */
+}
+
+.textt{
+    text-align: justify;
+    text-indent: 30px;
+
+    /* position: relative; */
+    /* top: 30px; */
+    margin-top: 120px;
+
+    /* border: 1px solid; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textt p{
+    margin: 5px;
+}
+
+.edsheeran{
+    text-align: center;
+}
+
+.namaPILAR img{
+    position: relative;
+
+    top: 0;
+    /* left: 30px; */
+    height: 470px;
+}
+
+.namaPILAR h2{
+    /* margin-top: 30px; */
+    padding: 30px;
+
+    text-align: center;
+}
+
+
+/* halo semoga bisa */
+.checklist {
+  list-style: none;
+  padding: 0;
+  /* max-width: 320px; */
+  font-family: cabin;
+
+  /* background-color: white; */
+  background-color: #780000;
+  /* color: black; */
+  font-size: 13pt;
+
+  margin-left: 20px;
+  margin: 30px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.first{
+    margin-top: 0 !important;
+}
+
+.headsup{
+    margin-left: 7px;
+}
+
+li p{
+    margin-left: 30px;
+    margin-right: 50px;
+
+    width: 100%;
+    
+}
+
+.checklist-item {
+    margin-top: 15px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* padding: 10px 12px; */
+  /* border-radius: 8px; */
+
+  cursor: pointer;
+  /* transition: background-color 0.15s ease; */
+}
+
+
+/* .checklist-item:hover {
+  background-color: #f3f4f6;
+} */
+
+/* Custom Checkbox Box */
+.checklist-item input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #9ca3af;
+  border-radius: 6px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+/* Checkmark Icon (hidden until checked) */
+.checklist-item input[type="checkbox"]::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  background-color: white;
+  transform: scale(0);
+  transition: transform 0.12s ease-in-out;
+}
+
+/* Checked State */
+.checklist-item input[type="checkbox"]:checked {
+  /* background-color: #2563eb; */
+  border-color: #2563eb;
+}
+
+.checklist-item input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+/* Strikethrough text when checked */
+.checklist-item input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+/* Keyboard accessibility focus ring */
+.checklist-item input[type="checkbox"]:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* .photograph{
+    font-size: 15pt;
+} */
+
+.partthreeohhhmydays{
+    display: flex;
+    gap: 30px;
+
+    margin: 60px;
+    margin-top: 30px;
+
+    /* border: 1px solid; */
+    height: 500px;
+}
+
+.jeniz{
+    width: calc(40%);
+
+    border: 1px solid #003049;
+    background-color: #003049;
+    color:  rgb(227, 224, 224);
+
+}
+
+.lesgo{
+    width: calc(60%);   
+    
+    /* border: 1px solid; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    height: auto;
+
+    border: 1px solid #780000;
+    background-color: #780000;
+    color:  rgb(227, 224, 224);
+}
+
+.lesgo h2, h3{
+    text-align: center;
+}
+
+.lesgo h2{
+    margin: 0;
+}
+
+.lesgo h3{
+    margin: 10px;
+    margin-top: 5px;
+}
+
+.lesgo p{
+    margin: 0;
+    padding:0;
+}
+
+.risiKO{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid; */
+
+    display: flex;
+    gap:15px;
+}
+
+
+.positif, .negatif{
+    /* border: 1px solid; */
+    width: 50%;
+    height: 230px;
+}
+
+.jeniz h3{
+    margin-top:30px;
+    margin-left: 20px;
+    text-align: left;
+
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.jeniz p{
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.lesgo h3{
+    margin-top:0;
+    /* margin-left: 20px; */
+    text-align: center;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.jeniz p{
+    margin: 20px;
+}
+
+.lesgo p{
+    margin: 20px;
+    margin-top: 10px;
+}
+
+
+h4{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

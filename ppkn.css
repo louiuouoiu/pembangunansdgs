@@ -1,0 +1,540 @@
+body{
+  margin: 0;
+  padding: 0;
+
+  background-color: #FDF0D5;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url(Coolvetica\ Rg.otf);
+}
+h1, h2, h3{
+  font-family: 'coolvetica';
+}
+
+/* bro ini males banget coba2 fontttttttttttt */
+
+  @font-face {
+    font-family: cabin;
+    src: url(Cabin-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: anallop;
+    src: url(Anallop.ttf);
+  }
+
+p{
+    font-family: 'cabin';
+    /* font-size: 10pt; */
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 260px;
+
+  background-image: url(mrtheaderIN.png);
+  background-position: center;
+  background-size: cover;
+
+
+  /* border-radius: 20px; */
+  /* padding-bottom: 60px auto; */
+  display: flex;
+  align-items: center;
+  /* padding: 0 40px; */
+
+  z-index: 1;
+}
+
+.image {
+  position: absolute;
+  right: 6px; 
+  bottom: 240px;
+
+  height: 328px; 
+  object-fit: contain;
+
+  z-index: 20;
+
+  filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.3));
+}
+
+.navup{
+    overflow: hidden; /*hide if kebanyakan*/
+    background-color: darkblue;
+}
+
+.navup a{
+    float: left;
+    display: block;
+    text-align: center;
+    
+    padding: 14px 16px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.navup a:hover{
+    background-color: darkkhaki;
+    color: black;
+}
+
+/* FOOTER */
+.foot{
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.foot img{
+  width: 100%;
+  height: 200px;
+}
+
+/* part 1 */
+  .aroundme{
+    box-sizing: border-box;
+    height: 850px;
+    width: calc(100% - 120px);
+
+    margin: 60px;
+    padding: 60px;
+
+    background-color: #669BBC;
+    /* color: white; */
+
+    display: flex; 
+    flex-direction: column; 
+    /* justify-content: center; */
+    align-items: center;   
+  }
+
+  h2{
+    text-align: center;
+    font-size: 28pt;
+
+    rotate: 0.5deg;
+    margin-top: 0;
+  }
+
+
+  .aroundme p{
+    /* margin: 80px; */
+    font-size: 13pt;
+
+    text-align: center;
+  }
+
+  .aroundme img{
+    padding-top: 0;
+    width: 1130px;
+  }
+
+  .infoletsgo h1,h2,h3{
+    text-align: center;
+  }
+
+  .infoletsgo{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,400px));
+    gap: 40px;
+    padding: 20px; 
+
+    max-width: 100%;
+
+    margin: 0 auto;
+    justify-content: center;
+
+    /* bottom: 80px; */
+  }
+
+  .infoletsgo p{
+    overflow-wrap: break-word;
+    text-wrap: balance; 
+    word-wrap: break-word;
+
+    /* text-align: justify; */
+    /* font-size: 11pt; */
+
+    text-align: justify;
+    padding-left: 1px;
+    padding-right: 1px;
+
+    text-indent: 30pt;
+  }
+
+  .infrastruktur, .inovasi, .industri{
+    /* border: 1px solid; */
+
+    padding: 10px;
+  }
+
+  .infoletsgo h3{
+    margin: 0;
+    font-weight: normal;
+  }
+
+  .infoletsgo h1{
+    margin: 2px;
+  }
+
+/* time to move on brow */
+
+  .kerjasama{
+    box-sizing: border-box;
+    height: calc(1250px+50px);
+    width: calc(100% - 120px);
+
+    margin: 60px;
+    padding: 60px;
+
+    background-color: #8e363c;
+    /* color: #FFFDD0; */
+    color: rgb(227, 224, 224);
+
+    display: flex; 
+    flex-direction: column; 
+    /* justify-content: center; */
+    align-items: center;   
+  }
+
+  .kerjasama p{
+    margin: 0;
+    font-size: 13pt;
+  }
+  
+  .kerjasama h2{
+    margin: 2px;
+  }
+
+  .kerjasama .unik{
+    margin-top: 10px; 
+    color: white;
+  }
+
+  .gridagain{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,400px));
+    gap: 30px;
+    padding: 20px; 
+
+    max-width: 100%;
+
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+.gridagain h1{
+  text-align: center;
+}
+
+.bilateral, .regional, .multilateral{
+  border: 1px solid;
+  height: 1150px;
+}
+
+.gridagain p{
+  overflow-wrap: break-word;
+    text-wrap: balance; 
+    word-wrap: break-word;
+
+    /* text-align: justify; */
+    /* font-size: 11pt; */
+
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-indent: 30pt;
+}
+
+.gridagain h2{
+  margin-top: 40px;
+  font-size: 20pt;
+
+  margin-bottom: 10px;
+}
+
+.gridagain img{
+  width: 230px;
+  height: 230px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* FINALLY LAST PARTTTTTTTTT */
+
+.pancasila{
+    box-sizing: border-box;
+    /* height: 2245px; */
+    height: 2410px;
+    /* height: auto; */
+    width: calc(100% - 120px);
+
+    margin: 60px;
+    padding: 60px;
+    /* margin-bottom: 0; */
+    padding-bottom: 0;
+
+    background-color: #669BBC;
+    /* border: 1px solid; */
+  }
+
+  .informasi{
+    display: flex; 
+    flex-direction: column; 
+    /* justify-content: center; */
+    align-items: center;   
+
+    /* border: 1px solid yellow; */
+    height: 900px;
+
+    margin-top: 30px;
+  }
+
+.pancasila h2{
+  margin-left: 60px; 
+  margin-right: 60px;
+  
+}
+
+.fancy{
+  background-color: #780000;
+  color: white;
+
+  padding: 2px;
+}
+
+.pancasila .garuda{
+  width: 500px;
+
+  z-index: 2;
+}
+
+.sila2, .sila3, .sila4, .sila5{
+  transition: transform 0.3s ease-in-out;
+
+
+}
+
+.sila2:hover{
+  transform: translate(-30px, -30px);
+  z-index: 100;
+
+}
+
+.sila3:hover{
+  transform: translate(30px, -30px);
+  z-index: 100;
+
+}
+
+.sila4:hover{
+  transform: translate(-30px, 30px);
+  z-index: 100;
+
+} 
+
+.sila5:hover{
+  transform: translate(30px, 30px);
+  z-index: 100;
+
+}
+
+.upupup{
+  display: flex;
+  flex-direction: row;
+
+  gap:20px;
+  padding: 10px;
+}
+
+.downdowndown{
+  display: flex;
+  flex-direction: row;
+  
+  gap:20px;
+  padding: 10px;
+}
+
+.sila2, .sila3, .sila4, .sila5{
+  width: 400px;
+  height: 400px;
+
+  background-color: #780000;
+  color: rgb(227, 224, 224);
+}
+
+.garuda{
+  position: relative;
+
+  bottom: 700px;
+
+  shape-outside: url('garuda.png'); /* Uses the image's transparency */
+  shape-image-threshold: 0.5;
+  pointer-events: none
+}
+
+.informasi h2{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+
+  text-align: center;
+}
+
+.informasi .isi{
+  text-align: center;
+  margin-top: 0;
+  text-indent: 0;
+}
+
+.informasi p{
+  margin: 20px;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+/* OKE GASKAN pancasila sebagai pelajar */
+ 
+.pelajar{
+  width: 100%;
+  height: 500px;
+  
+  background-color: #780000;
+  /* color: #FFFDD0; */
+    
+  color: rgb(227, 224, 224);
+
+  margin: 0;
+  padding: 0;
+  
+  display: block;
+  /* bottom: 460px; */
+
+  /* border: 1px solid; */
+}
+
+.kerjasamaa{
+  /* margin: 60px; */
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  padding: 0;
+  
+  width: calc(100% - 120px);
+  height: 480px;
+  /* border: 1px solid red; */
+
+  background-color: #003049;
+  color: rgb(227, 224, 224);
+
+  /* background-color:rgb(227, 224, 224);
+  color: #003049; */
+
+
+  padding: 20px;
+
+  /* position: relative; */
+  display: block;
+}
+
+.kerjasamaa p{
+  text-align: justify;
+  text-indent: 30px;
+
+  padding: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.pelajarINFO h2{
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+  text-align: left;
+
+  font-size: 30pt;
+
+  /* border: 1px solid; */
+}
+
+.pelajarINFO h3{
+  /* padding: 0; */
+  padding-left: 75px;
+  padding-right: 90px;
+  padding-top: 0;
+  margin-top:0;
+
+  text-align: left;
+  font-size: 21pt;
+}
+
+.pelajarINFO p{
+  padding-left: 75px;
+  padding-right: 350px;
+
+  text-align: justify;
+  text-indent: 30px;
+
+  /* border: 1px solid; */
+}
+
+.ey{
+  text-align: justify;
+  text-indent: 30px;
+
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.svg{
+  position: relative;
+  display: block;
+  height: 600px;
+
+  right: -650px;
+  top: -529px;
+  bottom:0;
+
+  filter: drop-shadow(5px 0 0 rgba(0, 0, 0, 0.3));
+  z-index: 100;
+
+  /* border: 1px solid; */
+}
+
+.gridagain h3{
+  font-size: 19pt;
+  margin-top:25px;
+  margin-bottom: 10px
+}
+
+.certainHEIGHT{
+  height: 200px;
+}
+

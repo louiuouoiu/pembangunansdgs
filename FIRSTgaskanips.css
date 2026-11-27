@@ -1,0 +1,317 @@
+body{
+    background-color: #FDF0D5;
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url(Coolvetica\ Rg.otf);
+}
+h1, h2, h3{
+  font-family: 'coolvetica';
+}
+
+/* bro ini males banget coba2 fontttttttttttt */
+
+  @font-face {
+    font-family: cabin;
+    src: url(Cabin-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: anallop;
+    src: url(Anallop.ttf);
+  }
+
+p{
+    font-family: 'cabin';
+    /* font-size: 10pt; */
+}
+
+.header {
+      position: relative;
+      width: 100%;
+      height: 260px;
+
+      background-image: url(sdgs4.png);
+      background-position: center;
+      background-size: cover;
+
+
+      /* border-radius: 20px; */
+      /* padding-bottom: 60px auto; */
+      display: flex;
+      align-items: center;
+      /* padding: 0 40px; */
+
+                    z-index: 1;
+    }
+
+    .image {
+      position: absolute;
+
+      top: 7px;
+      right: 0px; 
+      /* bottom: -34px; */
+      height: 300px; 
+      object-fit: contain;
+
+      filter: drop-shadow(5px 0 0 rgba(0, 0, 0, 0.3));
+
+                    z-index: 20;
+    }
+
+.scrol{
+    width: calc(100% - 40px);
+    height: 1000px;
+
+    border: 1px solid;
+    margin: 20px;
+}
+
+.ribetkodeny{
+    /* display: flex !important; */
+    gap: 16px;
+    align-items: flex-start;
+
+    /* padding-top: 0;
+    padding-left: 60px;
+    padding-right: 60px; */
+    padding: 30px;
+    /* padding-top: 0; */
+
+    /* border: 10px inset; */
+    margin: 60px;
+    margin-top: 0;
+}
+
+.upup{
+    display: flex;
+    gap: 16px;
+}
+
+.video{   
+    margin-top: 30px;
+    
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    gap: 20px;
+
+}
+
+.yap{
+    flex: 1;
+
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.penjelasan{
+    width: 100%;
+    height: 200px;
+
+    margin-top: 30px;
+
+    /* border: 1px solid; */
+}
+
+.penjelasan p{
+    text-indent: 30px;
+    text-align: justify;
+
+    /* padding: 20px; */
+    padding-top: 10px;
+
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.penjelasan h3{
+    margin-bottom: 0;
+    margin-top: 0;
+
+    /* padding: 20px; */
+    padding-bottom: 0;
+}
+
+/* class for video is "video" and text is "yap"  */
+
+.pembangunanN{
+    margin: 60px;
+    /* height: 400px; */
+    height: 700px;
+
+    /* border: 1px solid; */
+    margin-top: 0;
+
+    display: flex;
+    gap: 30px;
+}
+
+.pembangunanN p{
+    margin: 30px;
+    margin-top: 20px;
+
+    text-align:justify;
+    text-indent: 30px;
+}
+
+.pembangunanN h2{
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+.ques{
+    margin: 60px;
+    margin-bottom:10px !important;
+    font-size: 28pt;
+}
+
+p{
+    font-size: 12.5pt;
+}
+
+.kiri{
+    display: flex;
+    gap: 30px;
+
+    flex-direction: column; 
+    align-items: flex-end;
+
+    width: calc(50% - 30px);
+}
+
+    .normal{
+        /* margin-left: 30px; */
+        /* height: 350px; */
+        height: 450px;
+        /* width: 600px; */
+        width: 100%;
+
+        border: 1px solid;
+    }
+
+    .kiri img{
+        /* width: calc(100% - 600px); */
+        width: 100%;
+        
+        height: 250px;
+    }
+
+.kanan{
+    display: flex;
+    gap: 30px;
+
+    flex-direction: column; 
+    align-items: flex-end;
+
+    width: calc(50%);
+}
+
+    .berkelanjutan{
+        /* margin-top: 0; */
+        
+        height: 450px;
+        /* width: calc(100% - 600px); */
+        width: 100%;
+
+        border: 1px solid;
+    }
+
+    .kanan img{
+        /* width: 600px; kok yg ini ga align sm .normal */
+        width: 100%;
+        height: 250px;
+
+        /* margin-top: 30px; */
+    }
+
+    
+.eeh{
+    margin-left: 90px;
+}
+
+.ouu{
+    margin: 0;
+
+    color: #003049;
+}
+
+.yap p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.oo{
+    padding-top:0;
+    margin-bottom: 15px;
+
+    padding-top: 0;
+
+    color: #003049;
+}
+
+.aa{
+    color: #780000;
+}
+
+.categories{
+    display: flex;
+    gap: 10px;
+
+    padding-top:0 ;
+}
+
+.kesempatan, .inklusif, .berkualitas{
+    width: 100%;
+    border: 1px solid;
+
+    padding: 5px;
+    padding-top: 0;
+
+    background-color: #780000;
+    color:  rgb(227, 224, 224);
+}
+
+.ulti{
+    text-align: center;
+
+    padding-top: 10px;
+    margin: 0;
+}
+
+.up{
+    padding-bottom:2px;
+}
+
+.down{
+    padding-top: 2px;
+}
+
+.categories p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.normalISI1{
+    margin: 20px; /*ini yang DILUAR*/
+    width: calc(100% - 40px);
+    height: 180px;
+
+    border: 1px solid;
+    padding: 0;
+}
+
+.normalISI1 p{
+    padding: 10px;
+    margin:0;
+}
+
